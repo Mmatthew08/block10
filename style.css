@@ -1,0 +1,26 @@
+/*form{display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 10px;}
+#submit-button {
+    grid-column: span 2;
+    width: 300px;
+   justify-self: center;
+} */
+
+
+
+form {display: flex;
+flex-wrap: wrap;
+background-color: antiquewhite;
+padding: 5px;
+}
+#email {
+    background-color: antiquewhite;
+}
+#country {
+    background-color: antiquewhite;
+}
+body{
+    background-color:rgb(147, 38, 53);
+}
+form label : :nth-child(3) { color : crimson;}
